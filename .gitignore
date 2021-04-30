@@ -1,0 +1,16 @@
+*~
+TRANSMISSION/files/etc/frontview/addons/ui/TRANSMISSION/language/en-us/TRANSMISSION.str
+TRANSMISSION/files/etc/frontview/addons/ui/TRANSMISSION/TRANSMISSION.html
+TRANSMISSION/files/etc/frontview/addons/ui/TRANSMISSION/TRANSMISSION.js
+TRANSMISSION/files/etc/frontview/addons/ui/TRANSMISSION/TRANSMISSION.xml
+TRANSMISSION/files/etc/frontview/addons/ui/TRANSMISSION/TRANSMISSION_HANDLER.pl
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/start.sh
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/stop.sh
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/running.sh
+TRANSMISSION/files/etc/frontview/apache/addons/TRANSMISSION.conf
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/transmission-create
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/transmission-daemon
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/transmission-edit
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/transmission-remote
+TRANSMISSION/files/etc/frontview/addons/bin/TRANSMISSION/transmission-show
+Transmission_*.bin

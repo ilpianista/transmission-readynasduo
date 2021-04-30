@@ -1,0 +1,3 @@
+LABEL_SERVICE_TRANSMISSION_INFO::::<b>Transmission</b> - BitTorrent P2P Client.<br><br>You must remember to stop this addon before manually editing the settings.json configuration file otherwise changes will be overwritten when it stops.<br><br>Configuration files can be found at /addons-config/Transmission/
+PROMPT_TRANSMISSION_RPC_PORT::::Transmission RPC Port (from settings.json):
+BUTTON_TRANSMISSION_SHOW_WEB::::Show Web Interface
