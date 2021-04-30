@@ -1,6 +1,6 @@
 # Transmission add-on for ReadyNAS Duo/NV+ (sparc)
 
-This is a revival of the Transmission add-on originaly by [super-poussin](https://kb.netgear.com/24557/RAIDiator-Third-Party-Add-ons)
+This is a revival of the Transmission add-on originally created by [super-poussin](https://kb.netgear.com/24557/RAIDiator-Third-Party-Add-ons)
 and successively by [tarobun](https://community.netgear.com/t5/ReadyNAS-Storage-Apps-Old-Legacy/New-Transmission-2-84-add-on-for-ReadyNAS-Duo-NV-sparc/td-p/888826).
 
 ## How to build Transmission
@@ -23,11 +23,12 @@ and successively by [tarobun](https://community.netgear.com/t5/ReadyNAS-Storage-
     (the emulated environment doesn't support `xz` tarballs either, thus remember to unpack it before you copy it to the emulated environment:
 
     ```bash
-    unxz < transmission-2.94.tar.xz.1 > transmission-2.94.tar
+    unxz < transmission-2.94.tar.xz > transmission-2.94.tar
     ```
 
 1. Extract, configure and build.
 
+    This is the hardest part. You need to find prebuilt deb archives or to build the deb packages yourself. I\'ll provide instructions separately.
     We need to statically link to `libevent` and to provide hints to the compiler for the `zlib` library since the package doesn\'t ship a pkg-config file.
 
     ```bash
