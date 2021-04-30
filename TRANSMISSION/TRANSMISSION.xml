@@ -3,8 +3,8 @@
   <name>TRANSMISSION</name>
   <friendly_name>Transmission</friendly_name>
   <version>2.94</version>
-  <detail_url></detail_url>
-  <author>tarobun</author>
+  <detail_url>https://github.com/ilpianista/transmission-readynasduo</detail_url>
+  <author>Andrea Scarpino</author>
   <get_url>TRANSMISSION_HANDLER.pl</get_url>
   <set_url>TRANSMISSION_HANDLER.pl</set_url>
   <preaction>TRANSMISSION_preaction</preaction>
