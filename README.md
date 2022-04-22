@@ -14,10 +14,11 @@ and successively by [tarobun](https://community.netgear.com/t5/ReadyNAS-Storage-
     ```
 
 1. Take Transmission sources. GitHub doesn't support anymore SSLv3/TLSv1 and thus we cannot download transmission\'s sources directly from the emulated environment, but you could use another mirror or copy it via `scp` from your host (Samba is too old).
-  `scp` will not work out of the box because [SSH disables weak algorithms by default](https://www.openssh.com/legacy.html), but we can enable `diffie-hellman-group1-sha1` just this time; add the following to your `/etc/ssh/sshd_config` and restart ssh.
+  `scp` will not work out of the box because [SSH disables weak algorithms by default](https://www.openssh.com/legacy.html), but we can enable `diffie-hellman-group1-sha1` and `ssh-rsa` just this time; add the following to your `/etc/ssh/sshd_config` and restart ssh.
 
     ```
     KexAlgorithms +diffie-hellman-group1-sha1
+    HostKeyAlgorithms +ssh-rsa
     ```
 
     (the emulated environment doesn't support `xz` tarballs either, thus remember to unpack it before you copy it to the emulated environment:
